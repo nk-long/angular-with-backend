@@ -1,0 +1,21 @@
+<h1>Routing demo</h1>
+<br> <br>
+<span *ngFor="let data of subs">
+    <li>emane : {{data.ename}}</li>
+    <li>eid :{{data.eid}}</li><br>
+</span>
+
+
+<h2>{{subs}}</h2>
+
+
+<a routerLink="user">user</a>
+<br>  <br>
+<a routerLink="admin">admin</a>
+
+<h1>normal style</h1> <br> <br>
+
+<h1 appCustomDir>custom style</h1>
+
+
+<router-outlet></router-outlet>
